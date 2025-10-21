@@ -1,7 +1,7 @@
 <!-- Unit 3 Project
 Requirements
-[  ] Two External Links
-[  ] Table (minimum 2 Columns by 3 Rows)
+[ YES ] Two External Links
+[ YES ] Table (minimum 2 Columns by 3 Rows)
 [  ] Three CSS Rules
 [  ] Three Images
 
@@ -10,7 +10,7 @@ Select ONE Additional Feature to Add
 [ no ] Feature 2 - Change the Cursor
 [ no ] Feature 3 - Make a Background Color Semi-Transparent
 [ no ] Feature 4 - Include at Flip Card
-[ no ] Feature 5 - Include at least two Internal links
+[ YES ] Feature 5 - Include at least two Internal links
 -->
 
 <!DOCTYPE html>
@@ -25,10 +25,22 @@ Select ONE Additional Feature to Add
             border: 1px solid;
           }
 
+    #body {
+      background-image: url(https://www.ronenbekerman.com/wp-content/uploads/2012/12/making-of-Ratatouille-Kitchen.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .table {
+      
+    }
+
+
   </style>
 </head>
 
-<body>
+<body id="body">
 
   <h1>Complecated Recipies. But Not Really</h1>
 
@@ -36,22 +48,21 @@ Select ONE Additional Feature to Add
 
   <h3>
     <ul>  
-      <li><a href="https://www.food.com/recipe/fettuccine-with-brie-and-bacon-sauce-44245"> Bacon and Brie Fettuccine</a>->Here</li>
-      <li><a href="https://naturallieplantbased.com/pistachio-pesto-pasta/#recipe"> Pistachio Pesto Pasta</a>->Here</li>
-      <li>Whatever you have in your fridge</li>
+      <li><a href="bacon"> Bacon and Brie Fettuccine</a></li>
+      <li><a href="pesto"> Pistachio Pesto Pasta</a></li>
     </ul> 
   </h3>
 
       <p>They all say it should take about 30 minutes, they're lying it will take two hours.</p>
 
-  <h2 id="?">Bacon and Brie Fettuccine</h2>
+  <h2 id="bacon">Bacon and Brie Fettuccine</h2>
 
   <ul>
     <li>Time: 30 minutes</li>
     <li>Serves: 6</li>
   </ul>
 
-  <table>
+  <table class="table">
     <thead>
       <tr>
         <th>Ingredients</th>
@@ -61,15 +72,15 @@ Select ONE Additional Feature to Add
     <tbody>
       <tr>
         <td>bacon, chopped</td>
-        <td>1⁄2 lb</td>
+        <td>1/2 lb</td>
       </tr>
       <tr>
         <td>half-and-half</td>
-        <td>1⁄2 cup</td>
+        <td>1/2 cup</td>
       </tr>
       <tr>
         <td>canned low sodium chicken broth</td>
-        <td>1⁄2 cup</td>
+        <td>1/2 cup</td>
       </tr>
       <tr>
         <td>freshly grated parmesan cheese</td>
@@ -101,14 +112,14 @@ Select ONE Additional Feature to Add
     <strong>Step 9:</strong> Divide fettuccine among plates and serve.
   </p>
 
-  <h2 id="?">Pistachio Pesto Pasta NEEDS TO BE FIXED</h2>
+  <h2 id="pesto">Pistachio Pesto Pasta</h2>
 
   <ul>
     <li>Time: 25 minutes</li>
     <li>Serves: 4</li>
   </ul>
 
-  <table>
+  <table class="table">
     <thead>
       <tr>
         <th>Ingredients</th>
@@ -117,49 +128,73 @@ Select ONE Additional Feature to Add
     </thead>
     <tbody>
       <tr>
-        <td>bacon, chopped</td>
-        <td>1⁄2 lb</td>
+        <td>fresh basil leaves</td>
+        <td>1 heaping cup</td>
       </tr>
       <tr>
-        <td>half-and-half</td>
-        <td>1⁄2 cup</td>
+        <td>toasted shelled pistachios</td>
+        <td>2 tbsp</td>
       </tr>
       <tr>
-        <td>canned low sodium chicken broth</td>
-        <td>1⁄2 cup</td>
+        <td>fresh lemon juice</td>
+        <td>1 tbsp</td>
       </tr>
       <tr>
-        <td>freshly grated parmesan cheese</td>
+        <td>garlic</td>
+        <td>1 clove</td>
+      </tr>
+      <tr>
+        <td>diced cherry tomatoes</td>
         <td>1 cup</td>
       </tr>
       <tr>
-        <td> cracked black pepper</td>
-        <td>1 teaspoon</td>
+        <td>fresh spinach or arugula</td>
+        <td>1 large handful</td>
       </tr>
       <tr>
-        <td>brie cheese, rind removed,thinly sliced</td>
-        <td>3 ounces</td>
+        <td>penne pasta</td>
+        <td>8 oz</td>
       </tr>
       <tr>
-        <td>dry fettuccine</td>
-        <td>1 lb</td>
+        <td>halved or quartered artichoke hearts</td>
+        <td>1 cup</td>
+      </tr>
+      <tr>
+        <td>nutritional yeast</td>
+        <td>1/2 tbsp</td>
+      </tr>
+      <tr>
+        <td>red pepper flakes</td>
+        <td>1/4 teaspoon</td>
+      </tr>
+      <tr>
+        <td>salt</td>
+        <td>1/4 tsp</td>
+      </tr>
+      <tr>
+        <td>pepper</td>
+        <td>a pinch</td>
+      </tr>
+      <tr>
+        <td>extra virgin olive oil</td>
+        <td>2 tbsp</td>
       </tr>
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> Cook bacon in heavy large skillet over medium heat until fat is rendered and bacon begins to brown, about 6 minutes.<br>
-    <strong>Step 2:</strong> Using slotted spoon, transfer bacon to plate.<br>
-    <strong>Step 3:</strong> Discard fat from skillet.<br>
-    <strong>Step 4:</strong> Add half and half and chicken broth to same skillet and bring to boil over medium heat.<br>
-    <strong>Step 5:</strong> Gradually add Parmesan and stir until cheese melts.<br>
-    <strong>Step 6:</strong> Add pepper and bacon. Reduce heat to low and gradually add Brie, stirring until cheese melts.<br>
-    <strong>Step 7:</strong> Meanwhile, cook fettuccine in large pot of boiling salted water until just tender but still firm to bite.<br>
-    <strong>Step 8:</strong> Drain well. Add fettuccine to sauce in skillet and Toss until coated with sauce.<br>
-    <strong>Step 9:</strong> Divide fettuccine among plates and serve.
-
+  <p><strong>Step 1:</strong> To make your pistachio pesto, add your fresh basil, toasted pistachio pieces, fresh lemon juice, garlic, nutritional yeast, salt, pepper, and red pepper flakes (optional). Pulse until combined but not completely smooth, scraping down a few times in between.<br>
+    <strong>Step 2:</strong> Slowly drizzle in the olive oil while pulsing until combined and desired texture is achieved.<br>
+    <strong>Step 3:</strong> In a large pot, boil water with a pinch of salt. Add you penne and cook until al dente. Drain and rinse your cooked pasta and add it back to the pot.<br>
+    <strong>Step 4:</strong> Add your pistachio pesto, artichokes, cherry tomato halves, and greens. Stir until combined and warm over medium heat for a few minutes.<br>
+    <strong>Step 5:</strong> Serve your pistachio pesto pasta topped with more pistachio pieces, nutritional yeast/parmesan, and/or red pepper flakes.<br>
+    <strong>Step 6:</strong> TOAST YOUR PISTACHIOS: To toast your shelled pistachios, spread them evenly on a baking sheet, bake at 350°F for about 7-10 minutes, stirring occasionally, until they’re golden and aromatic. *Watch them closely so they don’t burn.<br>
   </p>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+  <p>
+    <strong>If this made no sense, here are the recipies for the two kinds of pasta. And if this is two hard, or your kithcin's ruined, just make a salad next time.</strong><br>
+    <em><a href="https://www.food.com/recipe/fettuccine-with-brie-and-bacon-sauce-44245"> Bacon and Brie Fettuccine</a><br>
+      <a href="https://naturallieplantbased.com/pistachio-pesto-pasta/#recipe"> Pistachio Pesto Pasta</a>
+  </p>
 
 </body>
 
