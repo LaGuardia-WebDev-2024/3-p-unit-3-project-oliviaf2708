@@ -2,19 +2,19 @@
 Requirements
 [ YES ] Two External Links
 [ YES ] Table (minimum 2 Columns by 3 Rows)
-[  ] Three CSS Rules
-[  ] Three Images
+[ YES ] Three CSS Rules
+[ YES ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include :hover Effect
 [ no ] Feature 2 - Change the Cursor
-[ no ] Feature 3 - Make a Background Color Semi-Transparent
+[ YES ] Feature 3 - Make a Background Color Semi-Transparent
 [ no ] Feature 4 - Include at Flip Card
 [ YES ] Feature 5 - Include at least two Internal links
 -->
 
 <!DOCTYPE html>
-<html>
+<html id="wholethang">
 
 <head>
   <title>Project: Recipe book</title>
@@ -33,7 +33,36 @@ Select ONE Additional Feature to Add
     }
 
     .table {
-      
+      background-color: rgba(255, 164, 89, 0.336);
+      color: rgb(255, 221, 193);
+      text-align: center;
+      margin: auto;
+    }
+
+    .big_writing {
+      color: rgb(255, 220, 202);
+    }
+
+    .text-box {
+      background-color: rgba(240, 255, 255, 0.541);
+      border-radius: 20px;
+      padding: 10px;
+      margin: auto;
+      width: fit-content;
+      text-align: center;
+    }
+
+    .small_writing {
+      color: rgb(224, 255, 245);
+    }
+
+    #wholethang {
+      text-align: center;
+      margin: auto;
+    }
+
+    a{
+      color: rgb(255, 241, 222);
     }
 
 
@@ -42,22 +71,26 @@ Select ONE Additional Feature to Add
 
 <body id="body">
 
-  <h1>Complecated Recipies. But Not Really</h1>
+  <h1 class="big_writing">Complecated Recipies. But Not Really</h1>
 
-  <p>Cooking can be really hard, especially if you are really bad at it. But for those people who don't care if you burn your house down, here are some recipies you probably shouldn't start with:</p>
+  <p class="small_writing">Cooking can be really hard, especially if you are really bad at it. But for those people who don't care if you burn your house down, here are some recipies you probably shouldn't start with:</p>
 
   <h3>
-    <ul>  
+    <ul class="small_writing">  
       <li><a href="bacon"> Bacon and Brie Fettuccine</a></li>
       <li><a href="pesto"> Pistachio Pesto Pasta</a></li>
     </ul> 
   </h3>
 
-      <p>They all say it should take about 30 minutes, they're lying it will take two hours.</p>
+      <p class="small_writing">They all say it should take about 30 minutes, they're lying it will take two hours.</p>
 
-  <h2 id="bacon">Bacon and Brie Fettuccine</h2>
+  <h2 id="bacon" class="big_writing">Bacon and Brie Fettuccine</h2>
 
-  <ul>
+  <p> <img src="https://majasrecipes.com/wp-content/uploads/2024/05/brie-and-bacon-gnocchi-recipe-1.jpg" width="200">
+      <img src="https://majasrecipes.com/wp-content/uploads/2024/05/brie-and-bacon-gnocchi-recipe-5.jpg" width="200">
+      <img src="https://majasrecipes.com/wp-content/uploads/2024/05/brie-and-bacon-gnocchi-recipe-4.jpg" width="200"></p>
+
+  <ul class="small_writing">
     <li>Time: 30 minutes</li>
     <li>Serves: 6</li>
   </ul>
@@ -101,7 +134,7 @@ Select ONE Additional Feature to Add
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> Cook bacon in heavy large skillet over medium heat until fat is rendered and bacon begins to brown, about 6 minutes.<br>
+  <p class="text-box"><strong>Step 1:</strong> Cook bacon in heavy large skillet over medium heat until fat is rendered and bacon begins to brown, about 6 minutes.<br>
     <strong>Step 2:</strong> Using slotted spoon, transfer bacon to plate.<br>
     <strong>Step 3:</strong> Discard fat from skillet.<br>
     <strong>Step 4:</strong> Add half and half and chicken broth to same skillet and bring to boil over medium heat.<br>
@@ -112,9 +145,13 @@ Select ONE Additional Feature to Add
     <strong>Step 9:</strong> Divide fettuccine among plates and serve.
   </p>
 
-  <h2 id="pesto">Pistachio Pesto Pasta</h2>
+  <h2 id="pesto" class="big_writing">Pistachio Pesto Pasta</h2>
 
-  <ul>
+  <p> <img src="https://www.twopeasandtheirpod.com/wp-content/uploads/2019/03/pasta-spinach-pistachio-pesto-1.jpg" width="150">
+      <img src="https://cdn11.bigcommerce.com/s-cjh14ahqln/product_images/uploaded_images/pistachio-pesto-pasta-10-web.jpg" width="150">
+      <img src="https://theheirloompantry.co/wp-content/uploads/2023/12/pistachio-pesto-pasta-with-pancetta-the-heirloom-pantry-02.jpg" width="225"></p>
+
+  <ul class="small_writing">
     <li>Time: 25 minutes</li>
     <li>Serves: 4</li>
   </ul>
@@ -182,7 +219,7 @@ Select ONE Additional Feature to Add
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> To make your pistachio pesto, add your fresh basil, toasted pistachio pieces, fresh lemon juice, garlic, nutritional yeast, salt, pepper, and red pepper flakes (optional). Pulse until combined but not completely smooth, scraping down a few times in between.<br>
+  <p class="text-box"><strong>Step 1:</strong> To make your pistachio pesto, add your fresh basil, toasted pistachio pieces, fresh lemon juice, garlic, nutritional yeast, salt, pepper, and red pepper flakes (optional). Pulse until combined but not completely smooth, scraping down a few times in between.<br>
     <strong>Step 2:</strong> Slowly drizzle in the olive oil while pulsing until combined and desired texture is achieved.<br>
     <strong>Step 3:</strong> In a large pot, boil water with a pinch of salt. Add you penne and cook until al dente. Drain and rinse your cooked pasta and add it back to the pot.<br>
     <strong>Step 4:</strong> Add your pistachio pesto, artichokes, cherry tomato halves, and greens. Stir until combined and warm over medium heat for a few minutes.<br>
@@ -190,7 +227,7 @@ Select ONE Additional Feature to Add
     <strong>Step 6:</strong> TOAST YOUR PISTACHIOS: To toast your shelled pistachios, spread them evenly on a baking sheet, bake at 350°F for about 7-10 minutes, stirring occasionally, until they’re golden and aromatic. *Watch them closely so they don’t burn.<br>
   </p>
 
-  <p>
+  <p class="small_writing">
     <strong>If this made no sense, here are the recipies for the two kinds of pasta. And if this is two hard, or your kithcin's ruined, just make a salad next time.</strong><br>
     <em><a href="https://www.food.com/recipe/fettuccine-with-brie-and-bacon-sauce-44245"> Bacon and Brie Fettuccine</a><br>
       <a href="https://naturallieplantbased.com/pistachio-pesto-pasta/#recipe"> Pistachio Pesto Pasta</a>
